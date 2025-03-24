@@ -1,0 +1,57 @@
+name: pdf_maker
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  path_provider: ^2.1.1
+  cupertino_icons: ^1.0.8
+  pdf: ^3.11.3
+  share_plus: ^10.1.4
+  file_picker: ^9.0.0
+  docx_template: ^0.4.0
+  flutter_image_compress: ^2.4.0
+  # flutter_image_compress: ^2.1.0
+  archive: ^3.4.10
+  # pdf_compressor: ^0.2.0  # pdf_render: ^1.4.12
+  # pdf_render: ^1.4.12
+  syncfusion_flutter_pdf: ^23.1.44
+  # gallery_saver: ^2.3.2  # Use the latest version
+  # flutter_lzma: any
+  # file_compression_plus: ^0.0.5
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  video_player: ^2.8.1
+  open_file: any
+  permission_handler: ^11.0.1
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/check.gif
+    - assets/check.mp4
+    - assets/loading.gif
+    - assets/template.docx
+    - assets/checking.webm
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/R.gif"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/R.gif"

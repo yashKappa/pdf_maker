@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path name="pdfs" path="Download/" />
+    <external-path name="Download" path="Download/" />
+    <external-path name="images" path="Android/data/com.yourapp/files/Pictures/" />
+</paths>
